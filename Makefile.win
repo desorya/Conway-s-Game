@@ -1,0 +1,29 @@
+# Project: conway
+# Makefile created by Dev-C++ 6.7.5
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = game.o
+LINKOBJ  = game.o
+LIBS     = -L"d:/tools/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/" -L"d:/tools/dev-cpp/mingw32/lib/gcc/" -L"d:/tools/dev-cpp/mingw32/mingw32/lib/" -L"d:/tools/dev-cpp/mingw32/lib/" -L"D:/Tools/Dev-Cpp/MinGW32/lib" -L"D:/Tools/Dev-Cpp/MinGW32/mingw32/lib" -pg -static
+INCS     = -I"d:/tools/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include" -I"d:/tools/dev-cpp/mingw32/include" -I"d:/tools/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include-fixed"
+CXXINCS  = -I"d:/tools/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++" -I"d:/tools/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/mingw32" -I"d:/tools/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include/c++/backward" -I"d:/tools/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include" -I"d:/tools/dev-cpp/mingw32/include" -I"d:/tools/dev-cpp/mingw32/lib/gcc/mingw32/9.2.0/include-fixed"
+BIN      = conway.exe
+CXXFLAGS = $(CXXINCS) -pg
+ENCODINGS = -finput-charset=utf-8 -fexec-charset=gbk
+CFLAGS   = $(INCS) -pg
+RM       = del /q /f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "$(BIN)" $(LIBS)
+
+game.o: game.cpp game.h
+	$(CPP) -c game.cpp -o game.o $(CXXFLAGS) 
