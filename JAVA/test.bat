@@ -1,0 +1,1 @@
+cmd /c "cd /d D:\Document\NYU\JAVA\Conway\out\artifacts\Conway_jar&&java -jar Conway.jar"
