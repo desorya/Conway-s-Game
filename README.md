@@ -1,13 +1,13 @@
 # Conway-s-Game
 Basic implementation of Conway's Game Of Life using glider pattern in Program C and JAVA.
 ## Source code location
-| Program C |
-| --------- |
+| Program C | |
+| --------- | ------ |
 | Path | File |
 | Program C |_**game.h**_ and   _**game.cpp**_. |
 
-| JAVA |
-| --------- |
+| JAVA | |
+| --------- | --------- |
 | Path | File |
 | JAVA\src |_**GameOfLife.java**_|
 
@@ -24,6 +24,10 @@ Basic implementation of Conway's Game Of Life using glider pattern in Program C 
 | ------------- | ------------- |
 | IDE | Intellij IDEA | 
 | SDK | openJDK 16 |
+
+## JAVA cmd tester
+Using _**test.bat**_ to visualize the game on cmd, JRE environment required.
+Replace the path of _**out**_ folder in _**test.bat**_ with your local path
 
 ## Demo video
 The demo video can be viewed below:
