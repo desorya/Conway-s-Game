@@ -9,7 +9,7 @@ Basic implementation of Conway's Game Of Life using glider pattern in Program C 
 | JAVA |
 | --------- |
 | Path | File |
-| JAVA\ |_**game.h**_ and   _**game.cpp**_. |
+| JAVA\src |_**GameOfLife.java**_|
 
 ## Environment
 
