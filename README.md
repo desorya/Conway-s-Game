@@ -5,6 +5,9 @@ Source code can be viewed in _**game.h**_ and   _**game.cpp**_.
 ## Environment
 <table>
   <tr>
+    Program C
+  </tr>
+  <tr>
     <td>IDE</td>
     <td>Dev-cpp v6.7.5</td>
   </tr>
