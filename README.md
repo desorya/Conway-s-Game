@@ -1,5 +1,6 @@
 # Conway-s-Game
 Basic implementation of Conway's Game Of Life using glider pattern in Program C.
+
 Source code can be viewed in _**game.h**_ and   _**game.cpp**_.
 ## Environment
 <table>
