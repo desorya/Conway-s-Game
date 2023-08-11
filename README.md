@@ -32,8 +32,9 @@ Using _**test.bat**_ to visualize the game on cmd, JRE environment required.
 
 ## Demo video
 The demo video can be viewed below:
-C ver:
+
+C ver - 
 https://drive.google.com/file/d/17lENn3UcrOqjJmOzTChrHvIzcy9UXVji/view?usp=drive_link
 
-JAVA ver:
+JAVA ver - 
 https://drive.google.com/file/d/1iyXmSuEhw9eA-6QIaup-hUFrlE4rUNGG/view?usp=drive_link
