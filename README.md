@@ -1,5 +1,6 @@
 # Conway-s-Game
 Basic implementation of Conway's Game Of Life using glider pattern in Program C.
+Source code can be viewed in **_ game.h_ ** and** _game.cpp_**.
 ## Environment
 <table>
   <tr>
@@ -17,6 +18,6 @@ Basic implementation of Conway's Game Of Life using glider pattern in Program C.
 </table>
 
 ## Demo video
-The demo video can be view below:
+The demo video can be viewed below:
 
 https://drive.google.com/file/d/17lENn3UcrOqjJmOzTChrHvIzcy9UXVji/view?usp=drive_link
